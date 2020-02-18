@@ -1,0 +1,45 @@
+{
+  "name": "chrome80-array-reduce-polyfill",
+  "version": "0.0.1",
+  "description": "polyfills an Array.reduce bug found in Chrome 80 and above version",
+  "main": "dist/main.js",
+  "scripts": {
+    "test": "jest --config jest.config.js",
+    "build": "webpack --mode production --config webpack.config.js"
+  },
+  "files": [
+    "package.json",
+    "README.md",
+    "dist",
+    "src"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tonykiselis/chrome80-reduce-polyfill.git"
+  },
+  "keywords": [
+    "chrome",
+    "array",
+    "reduce",
+    "bug",
+    "polyfill"
+  ],
+  "author": "tonykiselis",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tonykiselis/chrome80-reduce-polyfill/issues"
+  },
+  "homepage": "https://github.com/tonykiselis/chrome80-reduce-polyfill#readme",
+  "devDependencies": {
+    "@babel/core": "^7.3.4",
+    "@babel/plugin-transform-runtime": "^7.3.4",
+    "@babel/preset-env": "^7.3.4",
+    "@babel/runtime": "^7.8.4",
+    "babel-jest": "^25.1.0",
+    "babel-loader": "^8.0.5",
+    "jest": "^24.1.0",
+    "webpack": "^4.41.6",
+    "webpack-cli": "^3.2.3",
+    "webpack-node-externals": "^1.7.2"
+  }
+}
