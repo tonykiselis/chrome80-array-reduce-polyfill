@@ -15,7 +15,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/tonykiselis/chrome80-reduce-polyfill.git"
+    "url": "git+https://github.com/tonykiselis/chrome80-array-reduce-polyfill.git"
   },
   "keywords": [
     "chrome",
@@ -27,9 +27,9 @@
   "author": "tonykiselis",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/tonykiselis/chrome80-reduce-polyfill/issues"
+    "url": "https://github.com/tonykiselis/chrome80-array-reduce-polyfill/issues"
   },
-  "homepage": "https://github.com/tonykiselis/chrome80-reduce-polyfill#readme",
+  "homepage": "https://github.com/tonykiselis/chrome80-array-reduce-polyfill#readme",
   "devDependencies": {
     "@babel/core": "^7.3.4",
     "@babel/plugin-transform-runtime": "^7.3.4",
